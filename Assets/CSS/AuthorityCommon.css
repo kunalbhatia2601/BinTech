@@ -1,0 +1,66 @@
+.conBox {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.mainBox {
+    width: 100%;
+    padding: 10px;
+}
+
+.mySwitchingMenu {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+}
+
+.SwitchingMenuItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+}
+
+.SwitchingMenuItem:active{
+    transform: scale(0.95);
+}
+
+.MenuBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 5px;
+    margin: 5px;
+    height: fit-content;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+}
+
+.stats {
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wBox {
+    width: 200px ;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
